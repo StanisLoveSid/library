@@ -19,8 +19,8 @@ class Library
   end
 
   def save_data_to_database
-  	database = []
-  	database.push @orders, @books, @readers, @authors
+    database = []
+    database.push @orders, @books, @readers, @authors
     File.write("../db/database.yaml", database.to_yaml)
   end
 

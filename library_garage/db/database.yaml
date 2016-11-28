@@ -2,91 +2,91 @@
 - - !ruby/object:Order
     book: Taras Bulba
     reader: User5
-    date: 27.2.2012
-  - !ruby/object:Order
-    book: Taras Bulba
-    reader: User3
-    date: 4.6.2001
+    date: 25.7.2011
   - !ruby/object:Order
     book: Taras Bulba
     reader: User9
-    date: 27.9.2004
+    date: 7.6.2014
+  - !ruby/object:Order
+    book: Taras Bulba
+    reader: User8
+    date: 6.6.2009
   - !ruby/object:Order
     book: Rich Dad, Poor Dad
+    reader: User8
+    date: 30.1.2003
+  - !ruby/object:Order
+    book: Rich Dad, Poor Dad
+    reader: User6
+    date: 10.10.2010
+  - !ruby/object:Order
+    book: Rich Dad, Poor Dad
+    reader: User3
+    date: 18.4.2011
+  - !ruby/object:Order
+    book: Rich Dad, Poor Dad
+    reader: User9
+    date: 27.4.2016
+  - !ruby/object:Order
+    book: Kobzar
+    reader: User3
+    date: 16.11.2002
+  - !ruby/object:Order
+    book: Kobzar
+    reader: User9
+    date: 26.11.2013
+  - !ruby/object:Order
+    book: Kobzar
+    reader: User9
+    date: 4.1.2002
+  - !ruby/object:Order
+    book: Kobzar
+    reader: User7
+    date: 6.1.2013
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User9
+    date: 20.8.2004
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User4
+    date: 26.1.2000
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User5
+    date: 29.7.2014
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User4
+    date: 29.3.2012
+  - !ruby/object:Order
+    book: Ruby programming language
     reader: User2
-    date: 17.6.2010
-  - !ruby/object:Order
-    book: Rich Dad, Poor Dad
-    reader: User1
-    date: 19.10.2014
-  - !ruby/object:Order
-    book: Rich Dad, Poor Dad
-    reader: User3
-    date: 26.4.2006
-  - !ruby/object:Order
-    book: Rich Dad, Poor Dad
-    reader: User6
-    date: 15.9.2010
-  - !ruby/object:Order
-    book: Kobzar
-    reader: User4
-    date: 27.12.2012
-  - !ruby/object:Order
-    book: Kobzar
-    reader: User9
-    date: 8.12.2015
-  - !ruby/object:Order
-    book: Kobzar
-    reader: User7
-    date: 8.1.2011
-  - !ruby/object:Order
-    book: Kobzar
-    reader: User1
-    date: 22.12.2014
-  - !ruby/object:Order
-    book: Ruby programming language
-    reader: User5
-    date: 15.10.2013
-  - !ruby/object:Order
-    book: Ruby programming language
-    reader: User5
-    date: 9.9.2015
-  - !ruby/object:Order
-    book: Ruby programming language
-    reader: User7
-    date: 21.2.2005
-  - !ruby/object:Order
-    book: Ruby programming language
-    reader: User4
-    date: 4.12.2011
-  - !ruby/object:Order
-    book: Ruby programming language
-    reader: User7
-    date: 20.7.2013
-  - !ruby/object:Order
-    book: Ruby programming language
-    reader: User4
-    date: 23.11.2015
-  - !ruby/object:Order
-    book: Ruby programming language
-    reader: User1
-    date: 27.12.2007
+    date: 26.6.2016
   - !ruby/object:Order
     book: Ruby programming language
     reader: User6
-    date: 27.12.2004
+    date: 27.7.2015
   - !ruby/object:Order
     book: Ruby programming language
-    reader: User9
-    date: 8.12.2006
+    reader: User1
+    date: 23.1.2016
   - !ruby/object:Order
     book: Ruby programming language
-    reader: User9
-    date: 26.2.2007
+    reader: User2
+    date: 30.8.2003
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User5
+    date: 29.5.2007
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User7
+    date: 9.1.2011
   - !ruby/object:Order
     book: Ruby programming language
     reader: User8
-    date: 14.5.2003
+    date: 27.6.2007
 - - !ruby/object:Book
     title: Taras Bulba
     author: Nikolai Gogol

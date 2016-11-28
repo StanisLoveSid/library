@@ -1,7 +1,7 @@
 module Statistics
 
   def active_reader
-    @orders.group_by { |order| order.reader }.sort_by { |reader, order| order.count }.reverse.dig(0,0)
+    @orders.group_by(&:reader).sort_by { |reader, order| order.count }.reverse.dig(0,0)
   end
 
   def popular_book
@@ -9,11 +9,11 @@ module Statistics
   end
 
   def sorted_books
-    @orders.group_by { |order| order.book }.sort_by { |book, order| order.count }.reverse
+    @orders.group_by(&:book).sort_by { |book, order| order.count }.reverse
   end
 
   def top_3_book_users
-    sorted_books.first(3).collect {|book, order| order }.flatten.collect {|order| order.reader }.uniq.count
+    sorted_books.first(3).collect {|book, order| order }.flatten.collect(&:reader).uniq.count
   end
 
 end
