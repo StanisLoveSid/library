@@ -1,0 +1,182 @@
+---
+- - !ruby/object:Order
+    book: Taras Bulba
+    reader: User5
+    date: 25.7.2011
+  - !ruby/object:Order
+    book: Taras Bulba
+    reader: User9
+    date: 7.6.2014
+  - !ruby/object:Order
+    book: Taras Bulba
+    reader: User8
+    date: 6.6.2009
+  - !ruby/object:Order
+    book: Rich Dad, Poor Dad
+    reader: User8
+    date: 30.1.2003
+  - !ruby/object:Order
+    book: Rich Dad, Poor Dad
+    reader: User6
+    date: 10.10.2010
+  - !ruby/object:Order
+    book: Rich Dad, Poor Dad
+    reader: User3
+    date: 18.4.2011
+  - !ruby/object:Order
+    book: Rich Dad, Poor Dad
+    reader: User9
+    date: 27.4.2016
+  - !ruby/object:Order
+    book: Kobzar
+    reader: User3
+    date: 16.11.2002
+  - !ruby/object:Order
+    book: Kobzar
+    reader: User9
+    date: 26.11.2013
+  - !ruby/object:Order
+    book: Kobzar
+    reader: User9
+    date: 4.1.2002
+  - !ruby/object:Order
+    book: Kobzar
+    reader: User7
+    date: 6.1.2013
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User9
+    date: 20.8.2004
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User4
+    date: 26.1.2000
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User5
+    date: 29.7.2014
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User4
+    date: 29.3.2012
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User2
+    date: 26.6.2016
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User6
+    date: 27.7.2015
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User1
+    date: 23.1.2016
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User2
+    date: 30.8.2003
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User5
+    date: 29.5.2007
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User7
+    date: 9.1.2011
+  - !ruby/object:Order
+    book: Ruby programming language
+    reader: User8
+    date: 27.6.2007
+- - !ruby/object:Book
+    title: Taras Bulba
+    author: Nikolai Gogol
+  - !ruby/object:Book
+    title: Kobzar
+    author: Taras Shevchenko
+  - !ruby/object:Book
+    title: Ruby programming language
+    author: Yukihiro Matsumoto
+  - !ruby/object:Book
+    title: The Master and Margarita
+    author: Michael Bulgakov
+  - !ruby/object:Book
+    title: The White Guard
+    author: Michael Bulgakov
+  - !ruby/object:Book
+    title: Rich Dad, Poor Dad
+    author: Robert Kiyosaki
+  - !ruby/object:Book
+    title: Sheep Chase
+    author: Haruki Murakami
+- - !ruby/object:Reader
+    name: User1
+    email: user1@email.com
+    city: city1
+    street: street1
+    house: '1'
+  - !ruby/object:Reader
+    name: User2
+    email: user2@email.com
+    city: city2
+    street: street2
+    house: '2'
+  - !ruby/object:Reader
+    name: User3
+    email: user3@email.com
+    city: city3
+    street: street3
+    house: '3'
+  - !ruby/object:Reader
+    name: User4
+    email: user4@email.com
+    city: city4
+    street: street4
+    house: '4'
+  - !ruby/object:Reader
+    name: User5
+    email: user5@email.com
+    city: city5
+    street: street5
+    house: '5'
+  - !ruby/object:Reader
+    name: User6
+    email: user6@email.com
+    city: city6
+    street: street6
+    house: '6'
+  - !ruby/object:Reader
+    name: User7
+    email: user7@email.com
+    city: city7
+    street: street7
+    house: '7'
+  - !ruby/object:Reader
+    name: User8
+    email: user8@email.com
+    city: city8
+    street: street8
+    house: '8'
+  - !ruby/object:Reader
+    name: User9
+    email: user9@email.com
+    city: city9
+    street: street9
+    house: '9'
+- - !ruby/object:Author
+    name: Nikolai Gogol
+    biography: Biography of Nikolai Gogol
+  - !ruby/object:Author
+    name: Taras Shevchenko
+    biography: Biography of Taras Shevchenko
+  - !ruby/object:Author
+    name: Yukihiro Matsumoto
+    biography: Biography of Yukihiro Matsumoto
+  - !ruby/object:Author
+    name: Haruki Murakam
+    biography: Biography of Haruki Murakami
+  - !ruby/object:Author
+    name: Robert Kiyosaki
+    biography: Biography of Robert Kiyosaki
+  - !ruby/object:Author
+    name: Michael Bulgakov
+    biography: Biography of Michael Bulgakov
